@@ -1,0 +1,15 @@
+[project]
+name = "recruitment-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph",
+    "langchain",
+    "langchain_openai",
+    "pydantic",
+    "streamlit",
+    "pymupdf",
+    "python-dotenv",
+]
